@@ -178,7 +178,7 @@ int main()
 	//puts(str); printf("\n");
 	Node* root = treeFromString(str, 1, len - 2);
 	print_employees(root);
-	printf("\n");
+	printf("testttttt \n");
 	num = find_employees(root);
 	return 0;
 }
